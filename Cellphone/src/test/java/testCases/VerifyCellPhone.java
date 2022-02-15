@@ -9,12 +9,8 @@ public class VerifyCellPhone extends Base {
 
 	public void TestVerifyCellPhone() {
 		
-		 SetUpUrl(configProp.getProperty("url"));
-		 
-		 sendKeys(By.xpath(locatorProp.getProperty("search_all_category")));
-		 Click(By.xpath(locatorProp.getProperty("")))
-		
-		
-	
-}
+	     SetUpUrl(configProp.getProperty("url"));
+	     sendKeys(By.xpath(locatorProp.getProperty("search_all_category")));
+             Click(By.xpath(locatorProp.getProperty("locators")));
+    }
 }
