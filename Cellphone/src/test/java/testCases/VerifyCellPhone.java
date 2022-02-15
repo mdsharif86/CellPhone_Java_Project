@@ -12,5 +12,6 @@ public class VerifyCellPhone extends Base {
 	     SetUpUrl(configProp.getProperty("url"));
 	     sendKeys(By.xpath(locatorProp.getProperty("search_all_category")));
              Click(By.xpath(locatorProp.getProperty("locators")));
+	     Assert.assertEquals(20, 20);
     }
 }
